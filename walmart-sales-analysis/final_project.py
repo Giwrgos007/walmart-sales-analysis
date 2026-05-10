@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Φόρτωση Excel
+
 df = pd.read_excel('Filtered_Walmart_Sales_Data.xlsx', sheet_name='Data')
 df['Date'] = pd.to_datetime(df['Date'])
 
